@@ -1,18 +1,14 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
-###Data Set Summary & Exploration
+### Data Set Summary & Exploration
 
 [//]: # (Image References)
 
 [image1]: ./images/plot1.png 
 [image2]: ./images/plot2.png 
 [image3]: ./images/preprocessing.png 
-[image4]: ./test-Images/1.jpg 
-[image5]: ./test-Images/2.jpg 
-[image6]: ./test-Images/3.jpg  
-[image7]: ./test-Images/4.jpg  
-[image8]: ./test-Images/5.jpg 
-[image9]: ./images/top_5_Softmax.png 
+[image4]: ./images/test_imgs.png 
+[image5]: ./images/top_5_Softmax.png 
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -22,7 +18,7 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-####2.Visualization of the dataset.
+#### 2.Visualization of the dataset.
 
 I have used the matplot library to plot the two histograms 
 one for train, test and vaildation images and the other for each Unique labels.
@@ -127,8 +123,7 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image4]
 
 The first image might be difficult to classify because ...
 
@@ -153,5 +148,5 @@ The model was able to correctly guess 2 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
- ![alt text][image9]
+ ![alt text][image5]
 
