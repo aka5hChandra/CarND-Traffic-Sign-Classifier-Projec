@@ -94,27 +94,35 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
-    First arcitecture was based on LeNet architecture
+    
+First arcitecture was based on LeNet architecture
     
 * What were some problems with the initial architecture?
-    The accuracy was very low arround 83 %
+    
+The accuracy was very low arround 83 %
     
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to over fitting or under fitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-    I Expermented the dropout and maxpool layer which resulted in drastic increase in accuracy to 95%. From this we can say that adding dropout and maxpool prevented the overfitting of data.
-    And added more convolution layers
+    
+I Expermented the dropout and maxpool layer which resulted in drastic increase in accuracy to 95%. From this we can say that adding dropout and maxpool prevented the overfitting of data.
+And added more convolution layers
     
 * Which parameters were tuned? How were they adjusted and why?
-    Experimented around different values for learning rate
+
+Experimented around different values for learning rate
     
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-    Maxpool layer helps deal with over fitting of data.
+
+Maxpool layer helps deal with over fitting of data.
 
 If a well known architecture was chosen:
 * What architecture was chosen?
+I have adopted and experimented on LeNet and AlexNet.
+
 * Why did you believe it would be relevant to the traffic sign application?
+I did some homwork on these Neural nets, given that these were devloped for image net challenge we can say that these would be relevant to traffic sign application 
+
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
-    
-    I did some homwork on well known architecture likes Alexnet and GooglNet, given that these were devloped for image net challenge we can say that these would be relevant to traffic sign application 
+With iterative devlopement the accuracy of model is about 95% on validataion data, this provides evidence that the model is working well
  
 
 ### Test a Model on New Images
