@@ -134,10 +134,15 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4]
 
 The first image might be difficult to classify because it is not faced parallel to the screen but its roatated by very small angle.
+
 The second image looks clear and should not have any difficulty with classification.
+
 The third image looks clear and should not have any difficulty with classification.
+
 The fourth image is bit draker but that should not be problem.
+
 The fight image looks clear and should not have any difficulty with classification.
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
