@@ -133,7 +133,11 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image4]
 
-The first image might be difficult to classify because ...
+The first image might be difficult to classify because it is not faced parallel to the screen but its roatated by very small angle.
+The second image looks clear and should not have any difficulty with classification.
+The third image looks clear and should not have any difficulty with classification.
+The fourth image is bit draker but that should not be problem.
+The fight image looks clear and should not have any difficulty with classification.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -151,6 +155,8 @@ Here are the results of the prediction:
 
 
 The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%.
+But the accuray on the traing set was 99%, this drastic reduction in accuary for new test images coveys that, this a overfitting problem of data.
+
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -158,3 +164,4 @@ The code for making predictions on my final model is located in the 11th cell of
 
  ![alt text][image5]
 
+From the above plot we can see that , even though the classfication is it not currect for all the case, it is very certain for all the five test images with proboblity of 1.
